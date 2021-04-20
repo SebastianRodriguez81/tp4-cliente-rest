@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "name": "tp04-nuevo-cliente-http",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "json-server --watch ./test/static/db.json",
+    "test": "nodemon ./test/cliente.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
